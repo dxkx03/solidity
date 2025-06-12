@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createSimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfSimpleStorageContracts",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simplestorageindex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfget",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simplestorageindex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_newsimplestoragenumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfstore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/storagefactory.sol": "storagefactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/simplestorage.sol": {
+			"keccak256": "0x037d98a614ba386205464e17d25a5be9fdefd5e90a8da41eaf30971d8d0cf84a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d4acbd9d246edc4108cb52dbfd3a9564e7c448252d00db132e93330a0678d9d0",
+				"dweb:/ipfs/QmQjMD8dQSG59K5cchPCZzaBFB9aR4uiq938HQGF3bD7DP"
+			]
+		},
+		"contracts/storagefactory.sol": {
+			"keccak256": "0x5b2381d5f2d95d591100b088d6b71d7227810f582a025c4222f0cbc10151d30b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://35263ca59a5ebd151d16cc14bf9c216b2b5f83224a380c59f51c485f41703eb5",
+				"dweb:/ipfs/QmR4n5AryTRgsTjhgWKpQE58mT4Wv94xihwDAC5BEj11wC"
+			]
+		}
+	},
+	"version": 1
+}
